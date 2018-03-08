@@ -1,0 +1,134 @@
+{
+    "abstract":
+        {
+            "name":"abstract",
+            "x":0.08,
+            "y":0.25,
+            "font_size":18,
+            "short_text":"Abstract",
+            "class":"section",
+            "class_text":"text",
+            "click_func":"handleClick(this, 'abstract', 80, false)"
+        },
+    "intro":
+        {
+            "name":"intro",
+            "x":0.81,
+            "y":0.2,
+            "font_size":18,
+            "short_text":"Research Question",
+            "class":"section",
+            "class_text":"text",
+            "click_func":"handleClick(this, 'intro', 80, false)"
+        },
+    "methods":
+        {
+            "name":"methods",
+            "x":0.81,
+            "y":0.3,
+            "font_size":18,
+            "short_text":"Methods",
+            "class":"section",
+            "class_text":"text",
+            "click_func":"handleClick(this, 'methods', 80, false)"
+        },
+    "findings":
+        {
+            "name":"findings",
+            "x":0.81,
+            "y":0.4,
+            "font_size":18,
+            "short_text":"Results",
+            "class":"section",
+            "class_text":"text",
+            "click_func":"handleClick(document.getElementById('findings1'), 'findings1', 80, false, ['findings1', .25, .5, .5])"
+        },
+    "findings1":
+        {
+            "name":"findings1",
+            "x":0.85,
+            "y":0.5,
+            "font_size":16,
+            "short_text":"Who Reviews Whom",
+            "class":"section",
+            "class_text":"text",
+            "click_func":"handleClick(this, 'findings1', 80, false, ['findings1', .25, .5, .5])"
+        },
+    "findings2":
+        {
+            "name":"findings2",
+            "x":0.85,
+            "y":0.6,
+            "font_size":16,
+            "short_text":"Imagined Networks",
+            "class":"section",
+            "class_text":"text",
+            "click_func":"handleClick(this, 'findings2', 40, false, ['findings2.1', .43, .32, .35], ['findings2.2', .43, 1.00, .35])"
+        },
+    "findings3":
+        {
+            "name":"findings3",
+            "x":0.85,
+            "y":0.7,
+            "font_size":16,
+            "short_text":"Gender Markings",
+            "class":"section",
+            "class_text":"text",
+            "click_func":"handleClick(this, 'findings3', 80, false)"
+        },
+    "conclusion":
+        {
+            "name":"conclusion",
+            "x":0.81,
+            "y":0.8,
+            "font_size":18,
+            "short_text":"Conclusion",
+            "class":"section",
+            "class_text":"text",
+            "click_func":"handleClick(this, 'conclusion', 80, false)"
+        },
+    "about":
+        {
+            "name":"about",
+            "x":0.02,
+            "y":0.9,
+            "font_size":18,
+            "short_text":"About the Author",
+            "class":"section",
+            "class_text":"text",
+            "click_func":"handleClick(this, 'about', 80, true)"
+        },
+    "acknowledgements":
+        {
+            "name":"acknowledgements",
+            "x":0.02,
+            "y":0.8,
+            "font_size":18,
+            "short_text":"Acknowledgements",
+            "class":"section",
+            "class_text":"text",
+            "click_func":"handleClick(this, 'acknowledgements', 80, true)"
+        },
+    "bar":
+        {
+            "name":"bar",
+            "x":0.01,
+            "y":0.4,
+            "font_size":18,
+            "short_text":"Explore the data",
+            "class":"link",
+            "class_text":"link_text",
+            "click_func":"handleClickBar(this)"
+        },
+    "review":
+        {
+            "name":"review",
+            "x":0.01,
+            "y":0.6,
+            "font_size":18,
+            "short_text":"Read the reviews",
+            "class":"link",
+            "class_text":"link_text",
+            "click_func":"handleClickBubbles(this)"
+        }
+}

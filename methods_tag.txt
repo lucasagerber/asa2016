@@ -1,0 +1,1 @@
+The sample comprises 231 poetry book reviews published in 9 American literary magazines in 2012 and 2013.
